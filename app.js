@@ -38,6 +38,41 @@ if ((mes == 1 && dia >= 20) || (mes == 2 && dia <= 18)) {
 
 console.log(`Tu signo zodiacal es ${signo}`);
 
+console.log("EJERCICIO 02_____________________________________________");
+
+const persona = {
+    nombre: "Juan",
+    edad: 30,
+    genero: "Masculino",
+    direccion: "Calle 1, Ciudad 1",
+    correo: "juan@gmail.com"
+};
+
+
+
+const avion = {
+    modelo: "Boeing 747",
+    fabricante: "Boeing",
+    capacidad: 660,
+    velocidadMaxima: 920,
+    altitudMaxima: 13100
+};
+
+
+const productos = [
+    { nombre: "Camisa", precio: 29.99, talla: "M" },
+    { nombre: "Pantalón", precio: 49.99, talla: "L" },
+    { nombre: "Zapatos", precio: 79.99, talla: "9" }
+];
+
+
+const personas = [
+    { nombre: "Juan", edad: 30, genero: "Masculino" },
+    { nombre: "María", edad: 25, genero: "Femenino" },
+    { nombre: "Pedro", edad: 40, genero: "Masculino" }
+];
+
+const ciudadesPeruanas = ["Lima", "Arequipa", "Cusco", "Trujillo", "Piura"];
 
 
 
